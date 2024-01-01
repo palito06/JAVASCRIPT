@@ -100,7 +100,7 @@
         var arrayDigitado = [];
 
         botao.onclick = verifica;
-        entrada.focus();
+        entrada.focus()
 
 
     </script>
