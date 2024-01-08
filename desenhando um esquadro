@@ -1,0 +1,18 @@
+<script>
+
+  var canvas = document.querySelector(`canvas`);
+  var lapis = canvas.getContext(`2D`);
+
+  canvas.width = 400
+  canvas.height = 400
+
+  // formando um esquadro
+  lapis.fillStyle = `green`;
+  lapis.beginPath()
+  lapis.moveTo(0,0);
+  lapis.lineTo(400,0);
+  lapis.lineTo(400,400);
+  lapis.fill();
+  
+
+</script>
